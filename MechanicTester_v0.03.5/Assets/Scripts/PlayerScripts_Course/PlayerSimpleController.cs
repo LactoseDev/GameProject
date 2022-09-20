@@ -7,23 +7,26 @@ public class PlayerSimpleController : MonoBehaviour
     // Stores reference to Rigidbody
     private Rigidbody2D rBody;
     private Animator anim;
+    private CapsuleCollider2D capsColl2D;
+    
+    // Stores Layer Masks
+    [SerializeField] private LayerMask groundLayer;
 
     // Stores Movement Speed
     [SerializeField] private float moveSpeed;
     [SerializeField] private float jumpForce = 0f;
-    [SerializeField] private bool canJump;
-    [SerializeField] private int jumpCount;
-    [SerializeField] private int jumpCountMax = 2;
     private float moveX = 0f;
 
-    // Variables for checking Players State
-    private bool isGrounded;
+    // Coyote Time Variables
+    [SerializeField] private float coyoteTime = 0.2f;
+    [SerializeField] private float coyoteTimeCounter;
 
     // Start is called before the first frame update
     void Start()
     {
         rBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        capsColl2D = GetComponent<CapsuleCollider2D>();
     }
 
     // Update is called once per frame
@@ -42,15 +45,43 @@ public class PlayerSimpleController : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
         }
 
+        // Coyote Time Logic
+        if (IsGrounded())
+        {
+            coyoteTimeCounter = coyoteTime;
+        }
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
+        }
+
+
         //JUMP
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && coyoteTimeCounter > 0)
         {
             Jump();
         }
 
+        // Variable Jump Height
+        if (Input.GetButtonUp("Jump") && rBody.velocity.y > 0)
+        {
+            rBody.velocity = new Vector2(rBody.velocity.x, rBody.velocity.y * 0.5f);
+        }
+
+        // Falling animtion (Not Working?)
+        if (rBody.velocity.y <= -0.1)
+        {
+            anim.SetBool("isFalling", true);
+        }
+        else
+        {
+            anim.SetBool("isFalling", false);
+        }
+
+
         // SET ANIMATIONS
         anim.SetBool("isRunning", moveX != 0);
-        anim.SetBool("isGrounded", isGrounded != false);
+        anim.SetBool("isGrounded", IsGrounded());
     }
 
     private void FixedUpdate()
@@ -62,32 +93,14 @@ public class PlayerSimpleController : MonoBehaviour
 
     private void Jump()
     {
-        if (isGrounded)
-        {
-            jumpCount += 1;
 
-            if (canJump == true && (jumpCount <= jumpCountMax))
-            {
-                rBody.velocity = new Vector2(rBody.velocity.x, jumpForce);
-                isGrounded = false;
-            }
-            else
-            {
-                isGrounded = false;
-                //canJump = false;
-            }
-        }
-
+        rBody.velocity = new Vector2(rBody.velocity.x, jumpForce);
+        //anim.SetTrigger("Jump");
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private bool IsGrounded()
     {
-        if (collision.gameObject.tag == "Ground")
-        {
-            isGrounded = true;
-            jumpCount = 0;
-        }
+        RaycastHit2D raycastHit = Physics2D.BoxCast(capsColl2D.bounds.center, capsColl2D.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
+        return raycastHit.collider != null;
     }
-
-
 }

@@ -64,6 +64,15 @@ namespace TarodevController
 
             MoveCharacter(); // Actually perform the axis movement
 
+            if (_currentVerticalSpeed <= -0.1)
+            {
+                anim.SetBool("isFalling", true);
+            }
+            else
+            {
+                anim.SetBool("isFalling", false);
+            }
+            
             // Set Animation
             anim.SetBool("isRunning", Input.X != 0);
             anim.SetBool("isGrounded", _colDown);
