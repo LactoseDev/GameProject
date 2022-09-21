@@ -17,9 +17,17 @@ public class PlayerSimpleController : MonoBehaviour
     [SerializeField] private float jumpForce = 0f;
     private float moveX = 0f;
 
+    // Jump Cooldown Varibales
+    private bool isJumping;
+    private float jumpCooldown = 0.4f;
+
     // Coyote Time Variables
     [SerializeField] private float coyoteTime = 0.2f;
-    [SerializeField] private float coyoteTimeCounter;
+    private float coyoteTimeCounter;
+
+    // Jump Buffer Variables
+    [SerializeField] private float jumpBufferLength;
+    private float jumpBufferCounter;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +42,7 @@ public class PlayerSimpleController : MonoBehaviour
     {
         // Movement Input Check
         moveX = Input.GetAxis("Horizontal");
+        IsGrounded();
 
         // Flips character sprite depending on which way you're facing
         if (moveX >= 0.1)
@@ -55,11 +64,22 @@ public class PlayerSimpleController : MonoBehaviour
             coyoteTimeCounter -= Time.deltaTime;
         }
 
+        // Jump Buffer Logic
+        if (Input.GetButtonDown("Jump"))
+        {
+            jumpBufferCounter = jumpBufferLength;
+        }
+        else
+        {
+            jumpBufferCounter -= Time.deltaTime;
+        }
 
-        //JUMP
-        if (Input.GetKeyDown(KeyCode.Space) && coyoteTimeCounter > 0)
+
+        // JUMP
+        if (coyoteTimeCounter > 0 && jumpBufferCounter >= 0 && !isJumping)
         {
             Jump();
+            StartCoroutine(JumpCoolDown());
         }
 
         // Variable Jump Height
@@ -96,6 +116,13 @@ public class PlayerSimpleController : MonoBehaviour
 
         rBody.velocity = new Vector2(rBody.velocity.x, jumpForce);
         //anim.SetTrigger("Jump");
+    }
+
+    private IEnumerator JumpCoolDown()
+    {
+        isJumping = true;
+        yield return new WaitForSeconds(jumpCooldown);
+        isJumping = false;
     }
 
     private bool IsGrounded()

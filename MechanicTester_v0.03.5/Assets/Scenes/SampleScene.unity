@@ -1415,7 +1415,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   moveSpeed: 4
-  jumpForce: 5
+  jumpForce: 4
+  coyoteTime: 0.2
+  jumpBufferLength: 0.1
 --- !u!114 &1028526432
 MonoBehaviour:
   m_ObjectHideFlags: 0
