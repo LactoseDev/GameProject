@@ -88,20 +88,10 @@ public class PlayerSimpleController : MonoBehaviour
             rBody.velocity = new Vector2(rBody.velocity.x, rBody.velocity.y * 0.5f);
         }
 
-        // Falling animtion (Not Working?)
-        if (rBody.velocity.y <= -0.1)
-        {
-            anim.SetBool("isFalling", true);
-        }
-        else
-        {
-            anim.SetBool("isFalling", false);
-        }
-
-
         // SET ANIMATIONS
         anim.SetBool("isRunning", moveX != 0);
         anim.SetBool("isGrounded", IsGrounded());
+        anim.SetBool("isFalling", IsFalling());
     }
 
     private void FixedUpdate()
@@ -116,6 +106,13 @@ public class PlayerSimpleController : MonoBehaviour
 
         rBody.velocity = new Vector2(rBody.velocity.x, jumpForce);
         //anim.SetTrigger("Jump");
+    }
+
+    private bool IsFalling()
+    {
+        if (rBody.velocity.y <= -0.5f && !IsGrounded())
+        { return true; }
+        else { return false; }
     }
 
     private IEnumerator JumpCoolDown()

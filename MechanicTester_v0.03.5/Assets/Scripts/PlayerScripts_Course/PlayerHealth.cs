@@ -10,10 +10,17 @@ public class PlayerHealth : Health
     {
         base.HandleDamage(damageValue);
 
+        // Death Logic
         if (currentHealth <= 0)
         {
             this.gameObject.transform.position = checkpoint.transform.position;
             currentHealth = maxHealth;
+
+            // Screen Fade
+            // Animations
+            // Sounds
+
+
         }
     }
 
