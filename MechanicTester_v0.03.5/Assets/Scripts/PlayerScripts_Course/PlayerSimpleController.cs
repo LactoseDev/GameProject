@@ -42,7 +42,12 @@ public class PlayerSimpleController : MonoBehaviour
     {
         // Movement Input Check
         moveX = Input.GetAxis("Horizontal");
+
+        // Grounded Check
         IsGrounded();
+
+        // Falling Check
+        IsFalling();
 
         // Flips character sprite depending on which way you're facing
         if (moveX >= 0.1)
