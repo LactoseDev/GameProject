@@ -64,12 +64,16 @@ public class Health : MonoBehaviour
     public virtual void HandleDamage(int damageValue)
     {
         currentHealth -= damageValue;
-        if (currentHealth >= 1)
+
+        // Starts the Flash
+        if (currentHealth >= 1 && gameObject.CompareTag("Player"))
         {
             StartCoroutine(FlashRed());
         }
+
     }
 
+    // Handle Flash Red
     public IEnumerator FlashRed()
     {
         spriteRenderer.color = Color.red;

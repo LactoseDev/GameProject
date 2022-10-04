@@ -8,6 +8,7 @@ public class EnemyBehaviour : MonoBehaviour
     public GameObject player;
     private SpriteRenderer spriteRenderer;
     private EnemyPerception enemyPerception;
+    private Animator anim;
 
     public bool flipped;
 
@@ -19,6 +20,7 @@ public class EnemyBehaviour : MonoBehaviour
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         enemyPerception = GetComponentInChildren<EnemyPerception>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -28,14 +30,15 @@ public class EnemyBehaviour : MonoBehaviour
         FacePlayer();
 
         // Want enemy to follow the player
-        FollowPlayer();
+        if (!EnemyHealth.frozen)
+            FollowPlayer();
     }
 
     private void FacePlayer()
     {
         if (enemyPerception.playerInRange == true)
         {
-            flipped = player.transform.position.x > transform.position.x;
+            flipped = player.transform.position.x < transform.position.x;
             spriteRenderer.flipX = flipped;
         }
 
@@ -46,6 +49,7 @@ public class EnemyBehaviour : MonoBehaviour
         if (Vector2.Distance(transform.position, player.transform.position) > stopDistance && enemyPerception.playerInRange == true)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.deltaTime);
+            anim.SetBool("isRunning", true);
         }
         else if (enemyPerception.playerInRange == true)
         {

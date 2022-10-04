@@ -26,7 +26,6 @@ public class CharacterMovement : MonoBehaviour
     {
         DirectionCheck();
 
-
         anim.SetBool("isRunning", moveX != 0);
     }
 

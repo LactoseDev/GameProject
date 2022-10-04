@@ -16,8 +16,10 @@ public class PlayerHealth : Health
             this.gameObject.transform.position = checkpoint.transform.position;
             currentHealth = maxHealth;
 
+            // Death Animation
+
             // Screen Fade
-            // Animations
+
             // Sounds
 
         }
