@@ -29,8 +29,6 @@ public class PlayerJump : CharacterJump
         base.Update();
     }
 
-
-
     void ResetJumpCount()
     {
         currentJumpCount = totalJumps;
