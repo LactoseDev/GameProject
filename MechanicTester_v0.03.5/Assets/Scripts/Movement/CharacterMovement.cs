@@ -12,6 +12,14 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private float moveSpeed;
     private float moveX = 0f;
 
+    // Dash Variables
+    private bool canDash = true;
+    private bool isDashing;
+    [SerializeField] private float dashForce = 24f;
+    [SerializeField] private float dashTime = 0.2f;
+    [SerializeField] private float dashCooldown = 1f;
+
+    [SerializeField] private TrailRenderer trailRenderer;
 
     // Start is called before the first frame update
     protected virtual void Start()
@@ -24,7 +32,13 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     protected virtual void Update()
     {
+        if (isDashing)
+            return;
+
         DirectionCheck();
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+            StartCoroutine(Dash());
 
         anim.SetBool("isRunning", moveX != 0);
     }
@@ -32,6 +46,9 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once for 50 frames
     private void FixedUpdate()
     {
+        if (isDashing)
+            return;
+
         rBody.velocity = new Vector2(moveX * moveSpeed, rBody.velocity.y);
     }
 
@@ -52,4 +69,22 @@ public class CharacterMovement : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
         }
     }
+
+    // Dash Co Routine
+    private IEnumerator Dash()
+    {
+        canDash = false;
+        isDashing = true;
+        float originalGravity = rBody.gravityScale;
+        rBody.gravityScale = 0f;
+        rBody.velocity = new Vector2(transform.localScale.x * dashForce, 0f);
+        trailRenderer.emitting = true;
+        yield return new WaitForSeconds(dashTime);
+        trailRenderer.emitting = false;
+        rBody.gravityScale = originalGravity;
+        isDashing = false;
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
+    }
+
 }

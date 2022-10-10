@@ -13,13 +13,13 @@ public class PlayerDash : MonoBehaviour
 
     // Dash Variables
     [SerializeField] private float dashForce;
-    public float dashTimer = 1f;
-    public float dashRate = 4f;
+    //public float dashTimer = 1f;
+    //public float dashRate = 4f;
     
     // Dash Cooldown
-    private float dashCooldown = 0.1f;
-    private bool isDashing;
-    private bool hasGrounded;
+    //private float dashCooldown = 0.1f;
+    //private bool isDashing;
+    //private bool hasGrounded;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +35,7 @@ public class PlayerDash : MonoBehaviour
         {
             InputCheck();
 
-            GroundedCheck();
+            //GroundedCheck();
         }
     }
 
@@ -46,7 +46,7 @@ public class PlayerDash : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             Debug.Log("Left Shift was pressed!");
-            DashCheck();
+            Dash();
         }
     }
 
@@ -64,8 +64,9 @@ public class PlayerDash : MonoBehaviour
     private void Dash()
     {
         rBody.velocity = new Vector2(dashForce, rBody.velocity.y);
+        Debug.Log("Dashed!");
         anim.SetTrigger("dash");
-        StartCoroutine(DashCooldown());
+        //StartCoroutine(DashCooldown());
     }
 
     private IEnumerator DashCooldown()
