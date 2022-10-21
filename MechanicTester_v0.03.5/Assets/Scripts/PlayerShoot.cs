@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
 {
-    public Transform playerAim;
+    public Transform shootPoint;
     public GameObject nailPrefab;
 
     public float nailThrowForce;
@@ -27,9 +27,9 @@ public class PlayerShoot : MonoBehaviour
     // Shooting Logic
     private void Shoot()
     {
-        GameObject projectile = Instantiate(nailPrefab, playerAim.position, playerAim.rotation);
+        GameObject projectile = Instantiate(nailPrefab, shootPoint.position, shootPoint.rotation);
         Rigidbody2D rBody = projectile.GetComponent<Rigidbody2D>();
-        rBody.AddForce(playerAim.up * nailThrowForce, ForceMode2D.Impulse);
+        rBody.AddForce(shootPoint.up * nailThrowForce, ForceMode2D.Impulse);
     }
 
     // Cooldown Logic

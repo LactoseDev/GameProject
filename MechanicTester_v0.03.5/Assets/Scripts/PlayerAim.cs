@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class PlayerAim : MonoBehaviour
 {
-    //public GameObject mouse;
+    public Camera cam;
     public GameObject player;
 
     Vector2 mousePos;
     private Rigidbody2D rBody;
+
+    public float offsetX;
+    public float offsetY;
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +22,8 @@ public class PlayerAim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        rBody.transform.position = new Vector2(player.transform.position.x, player.transform.position.y);
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        rBody.transform.position = new Vector2(player.transform.position.x + offsetX, player.transform.position.y + offsetY);
     }
 
     private void FixedUpdate()

@@ -537,6 +537,11 @@ Transform:
   m_Father: {fileID: 1931094709}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &175941416 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2962900580192879188, guid: 18904fbf886b4e540a1c47e338acd4ec, type: 3}
+  m_PrefabInstance: {fileID: 2962900580547587057}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &207048958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,6 +1038,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!20 &450320206 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4308504737212398476, guid: 6967aa958fb533f45ab9170558338cf0, type: 3}
+  m_PrefabInstance: {fileID: 4308504737509295091}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &475688135
 GameObject:
   m_ObjectHideFlags: 0
@@ -2614,12 +2624,28 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2962900580192879188, guid: 18904fbf886b4e540a1c47e338acd4ec, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.003
+      value: -0.037
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962900580192879191, guid: 18904fbf886b4e540a1c47e338acd4ec, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 450320206}
+    - target: {fileID: 2962900580192879191, guid: 18904fbf886b4e540a1c47e338acd4ec, type: 3}
+      propertyPath: offsetX
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962900580192879191, guid: 18904fbf886b4e540a1c47e338acd4ec, type: 3}
+      propertyPath: offsetY
+      value: -0.15
       objectReference: {fileID: 0}
     - target: {fileID: 2962900581566937768, guid: 18904fbf886b4e540a1c47e338acd4ec, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2962900581566937771, guid: 18904fbf886b4e540a1c47e338acd4ec, type: 3}
+      propertyPath: shootPoint
+      value: 
+      objectReference: {fileID: 175941416}
     - target: {fileID: 2962900581566937771, guid: 18904fbf886b4e540a1c47e338acd4ec, type: 3}
       propertyPath: shootCooldown
       value: 0.2
