@@ -4,30 +4,39 @@ using UnityEngine;
 
 public class NailProjectile : MonoBehaviour
 {
-    public GameObject enemyHitEffect;
+    private Rigidbody2D rBody;
+
+    public GameObject hitEffect;
     public GameObject wallNailEffect;
 
     public int damageValue;
 
+    void Start()
+    {
+        rBody = GetComponent<Rigidbody2D>();
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
+
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            GameObject effect = Instantiate(enemyHitEffect, transform.position, Quaternion.identity);
             collision.gameObject.GetComponent<EnemyHealth>().HandleDamage(damageValue);
+            GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             Destroy(effect, 1f);
             Destroy(gameObject);
         }
 
-        /*if (collision.gameObject.CompareTag("Wall"))
+        if (collision.gameObject.CompareTag("Wall"))
         {
-            //HitWall();
-        }*/
-    }
+            //GameObject effect = Instantiate(wallNailEffect, transform.position, Quaternion.identity);
+            //Destroy(effect, 1f);
+            float originalGravity = rBody.gravityScale;
+            rBody.gravityScale = 0f;
+            rBody.velocity = Vector2.zero;
+            rBody.constraints = RigidbodyConstraints2D.FreezeAll;
 
-    /*private void HitWall()
-    {
-        GameObject effect = Instantiate(wallNailEffect, transform.position, Quaternion.identity);
-    }*/
+        }
+    }
 
 }

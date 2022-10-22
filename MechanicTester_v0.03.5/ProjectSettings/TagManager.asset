@@ -67,6 +67,9 @@ TagManager:
   - name: Player
     uniqueID: 106739585
     locked: 0
+  - name: Projectiles
+    uniqueID: 2046526531
+    locked: 0
   - name: FX
     uniqueID: 4152826863
     locked: 0
