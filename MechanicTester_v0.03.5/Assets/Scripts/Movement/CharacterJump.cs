@@ -137,4 +137,12 @@ public class CharacterJump : MonoBehaviour
         return grounded;
     }
 
+    /*void OnColliderEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("NailPlatform"))
+        {
+            anim.SetTrigger("onNailPlatform");
+        }
+    }*/
+
 }

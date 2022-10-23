@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6199858368587970505}
   - component: {fileID: 1302356416654858786}
   - component: {fileID: 4987095173025237683}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PlayerNail
   m_TagString: Nail
   m_Icon: {fileID: 0}
@@ -30,7 +30,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.215, y: -0.168, z: 0}
   m_LocalScale: {x: 0.08621173, y: 0.08621173, z: 0.08621173}
-  m_Children: []
+  m_Children:
+  - {fileID: 4993333147149274181}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -105,7 +106,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &1302356416654858786
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -137,3 +138,60 @@ MonoBehaviour:
   hitEffect: {fileID: 7927313462026458544, guid: fc056e6046dbe574b99d0c9e1ccf35c6, type: 3}
   wallNailEffect: {fileID: 7927313462026458544, guid: fc056e6046dbe574b99d0c9e1ccf35c6, type: 3}
   damageValue: 1
+--- !u!1 &5551263651435355531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4993333147149274181}
+  - component: {fileID: 570852194888021809}
+  m_Layer: 6
+  m_Name: NailPlatform
+  m_TagString: NailPlatform
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4993333147149274181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5551263651435355531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.1592922, y: 0.4375, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3430254895203009923}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &570852194888021809
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5551263651435355531}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0

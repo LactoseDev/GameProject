@@ -5,6 +5,7 @@ using UnityEngine;
 public class NailProjectile : MonoBehaviour
 {
     private Rigidbody2D rBody;
+    private GameObject nailPlatform;
 
     public GameObject hitEffect;
     public GameObject wallNailEffect;
@@ -14,6 +15,7 @@ public class NailProjectile : MonoBehaviour
     void Start()
     {
         rBody = GetComponent<Rigidbody2D>();
+        //nailPlatform = 
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -27,7 +29,11 @@ public class NailProjectile : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (collision.gameObject.CompareTag("Wall"))
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Wall"))
         {
             //GameObject effect = Instantiate(wallNailEffect, transform.position, Quaternion.identity);
             //Destroy(effect, 1f);
@@ -35,7 +41,11 @@ public class NailProjectile : MonoBehaviour
             rBody.gravityScale = 0f;
             rBody.velocity = Vector2.zero;
             rBody.constraints = RigidbodyConstraints2D.FreezeAll;
+            transform.GetChild(0).gameObject.transform.rotation = Quaternion.identity;
 
+            //nailPlatform.SetActive(true);
+
+            transform.GetChild(0).gameObject.SetActive(true);
         }
     }
 

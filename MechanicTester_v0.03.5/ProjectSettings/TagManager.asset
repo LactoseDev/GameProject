@@ -9,6 +9,7 @@ TagManager:
   - Breakable
   - Wall
   - Nail
+  - NailPlatform
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Player
   - AiSenses
   - Props
-  - 
+  - Projectile
   - 
   - 
   - 
