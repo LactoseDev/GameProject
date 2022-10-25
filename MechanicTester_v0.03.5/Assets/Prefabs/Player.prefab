@@ -320,6 +320,7 @@ GameObject:
   - component: {fileID: 2962900581566937775}
   - component: {fileID: 2962900581566937773}
   - component: {fileID: 2962900581566937771}
+  - component: {fileID: 5387940929350730721}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -660,3 +661,15 @@ MonoBehaviour:
   nailThrowForce: 5
   shootCooldown: 0.5
   cooldown: 0
+--- !u!114 &5387940929350730721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2962900581566937768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e1461739ebe34544bd9878282df2cd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
