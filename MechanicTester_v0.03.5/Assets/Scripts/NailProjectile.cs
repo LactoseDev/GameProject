@@ -5,8 +5,10 @@ using UnityEngine;
 public class NailProjectile : MonoBehaviour
 {
     private Rigidbody2D rBody;
+    private SpriteRenderer spriteRenderer;
     public GameObject nailProjectile;
     private Vector2 savedPosition;
+    public Sprite pinnedNailSprite;
 
     public GameObject hitEffect;
     public GameObject wallNailEffect;
@@ -14,9 +16,16 @@ public class NailProjectile : MonoBehaviour
     public int damageValue;
     private bool isPinned;
 
+    // Breaking Variables
+    private Coroutine breakNailCoroutine;
+    public float nailBreakTime;
+    public bool isBreaking;
+
+
     void Start()
     {
         rBody = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         //nailPlatform = 
     }
 
@@ -26,6 +35,8 @@ public class NailProjectile : MonoBehaviour
         {
             // Stores the nails final position
             savedPosition = nailProjectile.transform.position;
+            // Changes the sprite to the pinned sprite
+            spriteRenderer.sprite = pinnedNailSprite;
         }
     }
 
@@ -70,8 +81,34 @@ public class NailProjectile : MonoBehaviour
             transform.GetChild(1).gameObject.SetActive(true);
         }
 
-
-
+        if (other.gameObject.CompareTag("Player") && isBreaking == true)
+        {
+            Destroy(gameObject, nailBreakTime / 2);
+        }
+        else
+        {
+            breakNailCoroutine = StartCoroutine(BreakNail());
+        }
     }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player") && isBreaking == true)
+        {
+            isBreaking = false;
+            StopCoroutine(breakNailCoroutine);
+        }
+    }
+
+
+    public IEnumerator BreakNail()
+    {
+        // Start Breaking
+        isBreaking = true;
+        yield return new WaitForSeconds(nailBreakTime);
+        // Break the platform
+        Destroy(gameObject);
+    }
+
 
 }
