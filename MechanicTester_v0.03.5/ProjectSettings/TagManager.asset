@@ -10,6 +10,7 @@ TagManager:
   - Wall
   - Nail
   - NailPlatform
+  - SwingDistance
   layers:
   - Default
   - TransparentFX

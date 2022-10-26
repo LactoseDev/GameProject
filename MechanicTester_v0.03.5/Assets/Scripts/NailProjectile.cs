@@ -45,7 +45,6 @@ public class NailProjectile : MonoBehaviour
                 collision.gameObject.GetComponent<EnemyHealth>().HandleDamage(damageValue);
             }
         }
-
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -63,7 +62,7 @@ public class NailProjectile : MonoBehaviour
             // Freezes the nails constrains so it can't move
             rBody.constraints = RigidbodyConstraints2D.FreezeAll;
             // Stops the transforms of the perception range and the platform.
-            // Platform
+            // Jump Reset
             transform.GetChild(0).gameObject.transform.rotation = Quaternion.identity;
             transform.GetChild(0).gameObject.SetActive(true);
             // Perception Range
