@@ -75,6 +75,7 @@ public class CharacterMovement : MonoBehaviour
     {
         canDash = false;
         isDashing = true;
+        anim.SetTrigger("dash");
         float originalGravity = rBody.gravityScale;
         rBody.gravityScale = 0f;
         rBody.velocity = new Vector2(transform.localScale.x * dashForce, 0f);
