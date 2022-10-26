@@ -2647,6 +2647,10 @@ PrefabInstance:
       value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 2962900581110523569, guid: 18904fbf886b4e540a1c47e338acd4ec, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962900581110523569, guid: 18904fbf886b4e540a1c47e338acd4ec, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 0255bd3c81344c742ab4702874ae82e1, type: 3}
@@ -2669,6 +2673,10 @@ PrefabInstance:
     - target: {fileID: 2962900581566937768, guid: 18904fbf886b4e540a1c47e338acd4ec, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2962900581566937771, guid: 18904fbf886b4e540a1c47e338acd4ec, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2962900581566937771, guid: 18904fbf886b4e540a1c47e338acd4ec, type: 3}
       propertyPath: shootPoint
