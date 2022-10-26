@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3956354921262717277}
   m_Layer: 12
   m_Name: SwingDistance
-  m_TagString: NailPlatform
+  m_TagString: SwingDistance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -228,7 +228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4993333147149274181}
-  - component: {fileID: 570852194888021809}
+  - component: {fileID: 2008500653436424527}
   m_Layer: 6
   m_Name: NailPlatform
   m_TagString: NailPlatform
@@ -245,13 +245,13 @@ Transform:
   m_GameObject: {fileID: 5551263651435355531}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.1592922, y: 0.4375, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3430254895203009923}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &570852194888021809
-BoxCollider2D:
+--- !u!58 &2008500653436424527
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -260,22 +260,12 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.005588889, y: 0.048858404}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.6764965, y: 2.954329}
-  m_EdgeRadius: 0
+  m_Radius: 3
 --- !u!1 &7117763394012747857
 GameObject:
   m_ObjectHideFlags: 0
