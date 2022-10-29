@@ -137,6 +137,7 @@ m_PackageAssets:
         - 8.0.1
         - 8.0.2
         - 8.0.3
+        - 8.0.4
         - 9.0.0-pre.1
         - 9.0.0-pre.3
         - 9.0.0
@@ -361,6 +362,7 @@ m_PackageAssets:
         - 7.0.0
         - 7.0.1
         - 7.0.2
+        - 7.0.3
         - 8.0.0-pre.1
         - 8.0.0-pre.3
         - 8.0.0
@@ -924,6 +926,7 @@ m_PackageAssets:
         - 1.17.0
         - 1.17.1
         - 1.17.2
+        - 1.17.6
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -944,6 +947,7 @@ m_PackageAssets:
         - 1.17.0
         - 1.17.1
         - 1.17.2
+        - 1.17.6
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -1050,6 +1054,7 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
+        - 3.0.16
         compatible:
         - 1.0.2
         - 1.0.6
@@ -1082,6 +1087,7 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
+        - 3.0.16
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -3627,6 +3633,7 @@ m_PackageAssets:
         - 1.4.0
         - 1.4.1
         - 1.4.2
+        - 1.4.3
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3642,6 +3649,7 @@ m_PackageAssets:
         - 1.4.0
         - 1.4.1
         - 1.4.2
+        - 1.4.3
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -3810,6 +3818,7 @@ m_PackageAssets:
         - 7.0.0-pre.4
         - 7.0.0
         - 7.0.1
+        - 7.0.2
         - 8.0.0-pre.1
         - 8.0.0-pre.2
         - 8.0.0
