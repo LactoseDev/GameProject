@@ -7,6 +7,8 @@ public class NailProjectile : MonoBehaviour
     private Rigidbody2D rBody;
     public GameObject nailProjectile;
     private Vector2 savedPosition;
+    private SpriteRenderer spriteRenderer;
+    public Sprite pinnedSprite;
 
     public GameObject hitEffect;
     public GameObject wallNailEffect;
@@ -17,6 +19,7 @@ public class NailProjectile : MonoBehaviour
     void Start()
     {
         rBody = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         //nailPlatform = 
     }
 
@@ -54,6 +57,7 @@ public class NailProjectile : MonoBehaviour
             //GameObject effect = Instantiate(wallNailEffect, transform.position, Quaternion.identity);
             //Destroy(effect, 1f);
             isPinned = true;
+            spriteRenderer.sprite = pinnedSprite;
             // stores the old gravity on the nail (in case it needs to be changed)
             float originalGravity = rBody.gravityScale;
             rBody.gravityScale = 0f;

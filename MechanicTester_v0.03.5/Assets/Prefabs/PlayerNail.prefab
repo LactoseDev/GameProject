@@ -47,7 +47,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.0043459837, y: 0}
   serializedVersion: 2
-  m_Radius: 3
+  m_Radius: 15
 --- !u!114 &3956354921262717277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,7 +143,7 @@ SpriteRenderer:
   m_Sprite: {fileID: 21300000, guid: b73b3f10fd4ec4a4a881ce48ac56ab7e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
-  m_FlipY: 0
+  m_FlipY: 1
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
@@ -201,6 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nailProjectile: {fileID: 1339539371567024343}
+  pinnedSprite: {fileID: 21300000, guid: d481030e2d49c6842b4be41b92999b48, type: 3}
   hitEffect: {fileID: 7927313462026458544, guid: fc056e6046dbe574b99d0c9e1ccf35c6, type: 3}
   wallNailEffect: {fileID: 7927313462026458544, guid: fc056e6046dbe574b99d0c9e1ccf35c6, type: 3}
   damageValue: 1
@@ -260,12 +261,12 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3
+  m_Radius: 15
 --- !u!1 &7117763394012747857
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,13 +291,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7117763394012747857}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.03, y: 1.93, z: 0}
-  m_LocalScale: {x: 7.70826, y: 7.70826, z: 7.70826}
+  m_LocalRotation: {x: -0, y: -0, z: -0.054904312, w: 0.99849164}
+  m_LocalPosition: {x: 19.1, y: -12.7, z: 0}
+  m_LocalScale: {x: 55.25263, y: 58.06705, z: 55.25263}
   m_Children: []
   m_Father: {fileID: 3430254895203009923}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -6.295}
 --- !u!212 &2101348254965880062
 SpriteRenderer:
   m_ObjectHideFlags: 0

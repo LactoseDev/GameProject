@@ -1,20 +1,20 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/Escher/Documents/GitHub/GameProject/GameProject/MechanicTester_v0.03.5/Packages/manifest.json
+    m_FilePath: C:/Users/juicy/Desktop/The Git of The Hub/GameProject/MechanicTester_v0.03.5/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638027828748828316
-    m_Hash: 4094157391
+      ticks: 638028046270723450
+    m_Hash: 1084158673
   m_LockFileStatus:
-    m_FilePath: D:/Escher/Documents/GitHub/GameProject/GameProject/MechanicTester_v0.03.5/Packages/packages-lock.json
+    m_FilePath: C:/Users/juicy/Desktop/The Git of The Hub/GameProject/MechanicTester_v0.03.5/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638027828749088208
-    m_Hash: 2289605952
+      ticks: 638028046270728307
+    m_Hash: 1418868973
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.1.0
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.animation@5.1.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.animation@5.1.0
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
@@ -34,7 +34,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: asset
+      type: 
       description: 2D Animation provides all the necessary tooling and runtime components
         for skeletal animation using Sprites.
       status: 4
@@ -112,7 +112,6 @@ m_PackageAssets:
         - 5.2.0
         - 5.2.1
         - 5.2.3
-        - 5.2.4
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.1
@@ -129,25 +128,19 @@ m_PackageAssets:
         - 7.0.4
         - 7.0.5
         - 7.0.6
-        - 7.0.7
-        - 7.0.8
         - 8.0.0-pre.3
         - 8.0.0-pre.4
         - 8.0.0
         - 8.0.1
         - 8.0.2
-        - 8.0.3
-        - 8.0.4
         - 9.0.0-pre.1
         - 9.0.0-pre.3
-        - 9.0.0
         compatible:
         - 5.1.0
         - 5.1.1
         - 5.2.0
         - 5.2.1
         - 5.2.3
-        - 5.2.4
         verified: 5.1.1
       dependencies:
       - name: com.unity.2d.common
@@ -190,7 +183,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -207,7 +200,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.0.1
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
       assetPath: Packages/com.unity.2d.pixel-perfect
       name: com.unity.2d.pixel-perfect
       displayName: 2D Pixel Perfect
@@ -216,7 +209,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: tool
+      type: 
       description: 'The 2D Pixel Perfect package contains the Pixel Perfect Camera
         component which ensures your pixel art remains crisp and clear at different
         resolutions, and stable in motion.
@@ -247,8 +240,6 @@ m_PackageAssets:
         - 5.0.0-pre.2
         - 5.0.0
         - 5.0.1
-        - 5.0.2
-        - 5.0.3
         compatible:
         - 4.0.1
         verified: 4.0.1
@@ -284,7 +275,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.2.0
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.psdimporter@4.2.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.psdimporter@4.2.0
       assetPath: Packages/com.unity.2d.psdimporter
       name: com.unity.2d.psdimporter
       displayName: 2D PSD Importer
@@ -293,7 +284,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: asset
+      type: 
       description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop
         Big) file format. The ScriptedImporter is currently targeted for users who
         wants to create multi Sprite character animation using Unity 2D Animation
@@ -341,7 +332,6 @@ m_PackageAssets:
         - 4.1.3
         - 4.2.0
         - 4.3.0
-        - 4.3.1
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.1
@@ -356,21 +346,15 @@ m_PackageAssets:
         - 6.0.2
         - 6.0.3
         - 6.0.4
-        - 6.0.5
-        - 6.0.6
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         - 7.0.0
         - 7.0.1
-        - 7.0.2
-        - 7.0.3
         - 8.0.0-pre.1
         - 8.0.0-pre.3
-        - 8.0.0
         compatible:
         - 4.2.0
         - 4.3.0
-        - 4.3.1
         verified: 4.2.0
       dependencies:
       - name: com.unity.2d.common
@@ -412,7 +396,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -429,7 +413,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.sprite@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.sprite@1.0.0
       assetPath: Packages/com.unity.2d.sprite
       name: com.unity.2d.sprite
       displayName: 2D Sprite
@@ -480,7 +464,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.2.0
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.spriteshape@5.2.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.spriteshape@5.2.0
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
       displayName: 2D SpriteShape
@@ -489,7 +473,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: asset
+      type: 
       description: SpriteShape Runtime & Editor Package contains the tooling and
         the runtime component that allows you to create very organic looking spline
         based 2D worlds. It comes with intuitive configurator and a highly performant
@@ -565,13 +549,10 @@ m_PackageAssets:
         - 7.0.3
         - 7.0.4
         - 7.0.5
-        - 7.0.6
         - 8.0.0-pre.4
         - 8.0.0-pre.5
         - 8.0.0
-        - 8.0.1
         - 9.0.0-pre.1
-        - 9.0.0
         compatible:
         - 5.2.0
         - 5.3.0
@@ -621,7 +602,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -638,7 +619,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.tilemap@1.0.0
       assetPath: Packages/com.unity.2d.tilemap
       name: com.unity.2d.tilemap
       displayName: 2D Tilemap Editor
@@ -688,7 +669,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.6.15
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.cinemachine@2.6.15
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.cinemachine@2.6.15
       assetPath: Packages/com.unity.cinemachine
       name: com.unity.cinemachine
       displayName: Cinemachine
@@ -697,7 +678,7 @@ m_PackageAssets:
         email: 
         url: 
       category: cinematography
-      type: asset
+      type: 
       description: "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE:
         If you are upgrading from the Asset Store version of Cinemachine, delete
         the Cinemachine asset from your project BEFORE installing this version from
@@ -746,7 +727,6 @@ m_PackageAssets:
         - 2.6.11
         - 2.6.14
         - 2.6.15
-        - 2.6.17
         - 2.7.1
         - 2.7.2
         - 2.7.3
@@ -763,12 +743,8 @@ m_PackageAssets:
         - 2.8.3
         - 2.8.4
         - 2.8.6
-        - 2.8.9
         - 2.9.0-pre.1
         - 2.9.0-pre.6
-        - 2.9.1
-        - 2.9.2
-        - 3.0.0-pre.3
         compatible:
         - 2.5.0
         - 2.6.0-preview.2
@@ -789,7 +765,6 @@ m_PackageAssets:
         - 2.6.11
         - 2.6.14
         - 2.6.15
-        - 2.6.17
         - 2.7.1
         - 2.7.2
         - 2.7.3
@@ -806,12 +781,9 @@ m_PackageAssets:
         - 2.8.3
         - 2.8.4
         - 2.8.6
-        - 2.8.9
         - 2.9.0-pre.1
         - 2.9.0-pre.6
-        - 2.9.1
-        - 2.9.2
-        verified: 2.6.17
+        verified: 2.6.15
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -845,7 +817,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -862,7 +834,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.15.12
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.collab-proxy@1.15.12
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.collab-proxy@1.15.12
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -871,7 +843,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Editor
-      type: asset
+      type: 
       description: The Version Control package gives you the ability to use either
         Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
         SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
@@ -930,7 +902,6 @@ m_PackageAssets:
         - 1.17.0
         - 1.17.1
         - 1.17.2
-        - 1.17.6
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -951,7 +922,6 @@ m_PackageAssets:
         - 1.17.0
         - 1.17.1
         - 1.17.2
-        - 1.17.6
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -993,7 +963,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1010,7 +980,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -1019,7 +989,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: asset
+      type: 
       description: The JetBrains Rider Editor package provides an integration for
         using the JetBrains Rider IDE as a code editor for Unity. It adds support
         for generating .csproj files for code completion and auto-discovery of installations.
@@ -1058,7 +1028,6 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
-        - 3.0.16
         compatible:
         - 1.0.2
         - 1.0.6
@@ -1091,7 +1060,6 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
-        - 3.0.16
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -1114,7 +1082,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1131,7 +1099,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.14
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.ide.visualstudio@2.0.14
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.ide.visualstudio@2.0.14
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -1226,7 +1194,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.4
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.ide.vscode@1.2.4
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.ide.vscode@1.2.4
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -1299,7 +1267,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 10.8.1
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.render-pipelines.universal@10.8.1
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.render-pipelines.universal@10.8.1
       assetPath: Packages/com.unity.render-pipelines.universal
       name: com.unity.render-pipelines.universal
       displayName: Universal RP
@@ -1308,7 +1276,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: asset
+      type: 
       description: The Universal Render Pipeline (URP) is a prebuilt Scriptable Render
         Pipeline, made by Unity. URP provides artist-friendly workflows that let
         you quickly and easily create optimized graphics across a range of platforms,
@@ -1361,12 +1329,10 @@ m_PackageAssets:
         - 10.8.1
         - 10.9.0
         - 10.10.0
-        - 10.10.1
         compatible:
         - 10.8.1
         - 10.9.0
         - 10.10.0
-        - 10.10.1
         verified: 10.8.1
       dependencies:
       - name: com.unity.mathematics
@@ -1409,7 +1375,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1426,7 +1392,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.29
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.test-framework@1.1.29
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.test-framework@1.1.29
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1435,7 +1401,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Unity Test Framework
-      type: asset
+      type: 
       description: Test framework for running Edit mode and Play mode tests in Unity.
       status: 4
       errors: []
@@ -1475,7 +1441,6 @@ m_PackageAssets:
         - 1.1.30
         - 1.1.31
         - 1.1.33
-        - 1.3.0
         - 2.0.1-exp.1
         - 2.0.1-pre.12
         - 2.0.1-pre.18
@@ -1484,7 +1449,6 @@ m_PackageAssets:
         - 1.1.30
         - 1.1.31
         - 1.1.33
-        - 1.3.0
         - 2.0.1-exp.1
         - 2.0.1-pre.12
         - 2.0.1-pre.18
@@ -1514,7 +1478,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1531,7 +1495,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1697,7 +1661,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1706,7 +1670,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: asset
+      type: 
       description: Use Unity Timeline to create cinematic content, game-play sequences,
         audio sequences, and complex particle effects.
       status: 4
@@ -1785,7 +1749,6 @@ m_PackageAssets:
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
-        - 1.7.2
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -1814,7 +1777,6 @@ m_PackageAssets:
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
-        - 1.7.2
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -1848,7 +1810,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1865,7 +1827,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.ugui@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1928,7 +1890,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.ai@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1976,7 +1938,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -2024,7 +1986,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.animation@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -2072,7 +2034,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -2120,7 +2082,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.audio@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -2168,7 +2130,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.cloth@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -2220,7 +2182,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.director@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -2276,7 +2238,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -2325,7 +2287,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.imgui@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -2373,7 +2335,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -2421,7 +2383,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -2469,7 +2431,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.physics@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -2517,7 +2479,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -2565,7 +2527,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -2617,7 +2579,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.terrain@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -2665,7 +2627,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -2721,7 +2683,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -2773,7 +2735,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.ui@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -2821,7 +2783,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.uielements@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2885,7 +2847,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.umbra@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2933,7 +2895,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2989,7 +2951,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -3037,7 +2999,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -3093,7 +3055,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -3149,7 +3111,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -3205,7 +3167,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -3277,7 +3239,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -3329,7 +3291,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.video@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -3389,7 +3351,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.vr@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -3451,7 +3413,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.wind@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -3499,7 +3461,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.xr@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -3559,7 +3521,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -3611,7 +3573,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -3670,7 +3632,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3735,7 +3697,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.mathematics@1.1.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3816,7 +3778,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.8.1
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.render-pipelines.core@10.8.1
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.render-pipelines.core@10.8.1
       assetPath: Packages/com.unity.render-pipelines.core
       name: com.unity.render-pipelines.core
       displayName: Core RP Library
@@ -3825,7 +3787,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: asset
+      type: 
       description: SRP Core makes it easier to create or customize a Scriptable Render
         Pipeline (SRP). SRP Core contains reusable code, including boilerplate code
         for working with platform-specific graphics APIs, utility functions for common
@@ -3934,12 +3896,10 @@ m_PackageAssets:
         - 10.8.1
         - 10.9.0
         - 10.10.0
-        - 10.10.1
         compatible:
         - 10.8.1
         - 10.9.0
         - 10.10.0
-        - 10.10.1
         verified: 10.8.1
       dependencies:
       - name: com.unity.ugui
@@ -3968,7 +3928,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -3985,7 +3945,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.8.1
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.shadergraph@10.8.1
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.shadergraph@10.8.1
       assetPath: Packages/com.unity.shadergraph
       name: com.unity.shadergraph
       displayName: Shader Graph
@@ -3994,7 +3954,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: asset
+      type: 
       description: The Shader Graph package adds a visual Shader editing tool to
         Unity. You can use this tool to create Shaders in a visual way instead of
         writing code. Specific render pipelines can implement specific graph features.
@@ -4100,12 +4060,10 @@ m_PackageAssets:
         - 10.8.1
         - 10.9.0
         - 10.10.0
-        - 10.10.1
         compatible:
         - 10.8.1
         - 10.9.0
         - 10.10.0
-        - 10.10.1
         verified: 10.8.1
       dependencies:
       - name: com.unity.render-pipelines.core
@@ -4136,7 +4094,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -4153,7 +4111,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.1
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.services.core@1.0.1
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.services.core@1.0.1
       assetPath: Packages/com.unity.services.core
       name: com.unity.services.core
       displayName: Services Core
@@ -4162,7 +4120,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: asset
+      type: 
       description: 'This package defines common components used by multiple Game
         Service packages.
 
@@ -4186,8 +4144,6 @@ m_PackageAssets:
         - 1.4.0
         - 1.4.1
         - 1.4.2
-        - 1.4.3
-        - 1.5.2
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -4203,8 +4159,6 @@ m_PackageAssets:
         - 1.4.0
         - 1.4.1
         - 1.4.2
-        - 1.4.3
-        - 1.5.2
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -4221,7 +4175,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -4238,7 +4192,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.1.0
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.common@4.1.0
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.common@4.1.0
       assetPath: Packages/com.unity.2d.common
       name: com.unity.2d.common
       displayName: 2D Common
@@ -4247,7 +4201,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: asset
+      type: 
       description: 2D Common is a package that contains shared functionalities that
         are used by most of the other 2D packages.
       status: 4
@@ -4275,7 +4229,6 @@ m_PackageAssets:
         - 4.0.4
         - 4.1.0
         - 4.2.0
-        - 4.2.1
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.0
@@ -4286,20 +4239,14 @@ m_PackageAssets:
         - 6.0.1
         - 6.0.2
         - 6.0.3
-        - 6.0.4
-        - 6.0.5
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         - 7.0.0
-        - 7.0.1
-        - 7.0.2
         - 8.0.0-pre.1
         - 8.0.0-pre.2
-        - 8.0.0
         compatible:
         - 4.1.0
         - 4.2.0
-        - 4.2.1
         verified: 4.1.0
       dependencies:
       - name: com.unity.2d.sprite
@@ -4329,7 +4276,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -4346,7 +4293,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.2
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.path@4.0.2
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.2d.path@4.0.2
       assetPath: Packages/com.unity.2d.path
       name: com.unity.2d.path
       displayName: 2D Path
@@ -4416,7 +4363,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.3.2
       source: 1
-      resolvedPath: D:\Escher\Documents\GitHub\GameProject\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.searcher@4.3.2
+      resolvedPath: C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\PackageCache\com.unity.searcher@4.3.2
       assetPath: Packages/com.unity.searcher
       name: com.unity.searcher
       displayName: Searcher
@@ -4432,9 +4379,39 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 4.0.0-preview
+        - 4.0.0
+        - 4.0.7-preview
+        - 4.0.7
+        - 4.0.8-preview
+        - 4.0.9
+        - 4.1.0-preview
+        - 4.1.0
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
         - 4.3.2
+        - 4.6.0-preview
+        - 4.7.0-preview
+        - 4.9.1
+        - 4.9.2
         compatible:
+        - 4.0.0-preview
+        - 4.0.0
+        - 4.0.7-preview
+        - 4.0.7
+        - 4.0.8-preview
+        - 4.0.9
+        - 4.1.0-preview
+        - 4.1.0
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
         - 4.3.2
+        - 4.6.0-preview
+        - 4.7.0-preview
+        - 4.9.1
+        - 4.9.2
         verified: 4.3.2
       dependencies: []
       resolvedDependencies: []
@@ -4453,7 +4430,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637509898070000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -4463,5 +4440,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: D:/Escher/Documents/GitHub/GameProject/GameProject/MechanicTester_v0.03.5/Packages
+m_ProjectPath: C:/Users/juicy/Desktop/The Git of The Hub/GameProject/MechanicTester_v0.03.5/Packages
 m_EditorVersion: 2020.3.29f1 (2ff179115da0)
