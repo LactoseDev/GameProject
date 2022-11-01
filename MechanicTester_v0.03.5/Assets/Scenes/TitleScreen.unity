@@ -514,7 +514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a904ddfcca8339428209993ebb03b74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: VerticalSlice
+  levelToLoad: SampleScene
 --- !u!1 &991763369
 GameObject:
   m_ObjectHideFlags: 0
