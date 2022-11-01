@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScreen.unity
     guid: f1e55e0630380da428e9d8cc603be3d2
   - enabled: 1
-    path: Assets/Scenes/VerticalSlice.unity
-    guid: 05b1454481ed45645a5b6946a1de1032
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
