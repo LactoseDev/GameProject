@@ -6,20 +6,20 @@ using UnityEngine.UI;
 
 public class ItemManager : MonoBehaviour
 {
-    /*public int coinCount;
+    public int coinCount;
 
     public TextMeshProUGUI coinCountText;
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         coinCountText.text = "" + coinCount;
     }
 
-    public void HandleCollectible()
+    public void HandleCollectible(int collectibleValue)
     {
         coinCount += collectibleValue;
-    }*/
+    }
 
 
 }
