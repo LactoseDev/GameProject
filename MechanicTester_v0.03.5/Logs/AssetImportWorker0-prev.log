@@ -1,347 +1,474 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.29f1 (2ff179115da0) revision 3142009'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16169 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16251 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.29f1\Editor\Unity.exe
+D:\Program Files\Unity\2020.3.29f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/juicy/Desktop/The Git of The Hub/GameProject/MechanicTester_v0.03.5
+D:/Escher/Documents/GitHub/GameProject/GameProject/MechanicTester_v0.03.5
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60305
-Successfully changed project path to: C:/Users/juicy/Desktop/The Git of The Hub/GameProject/MechanicTester_v0.03.5
-C:/Users/juicy/Desktop/The Git of The Hub/GameProject/MechanicTester_v0.03.5
+53916
+Successfully changed project path to: D:/Escher/Documents/GitHub/GameProject/GameProject/MechanicTester_v0.03.5
+D:/Escher/Documents/GitHub/GameProject/GameProject/MechanicTester_v0.03.5
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 57.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/juicy/Desktop/The Git of The Hub/GameProject/MechanicTester_v0.03.5/Assets
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Escher/Documents/GitHub/GameProject/GameProject/MechanicTester_v0.03.5/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f14)
+    Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
     Vendor:   
-    VRAM:     8031 MB
-    Driver:   31.0.15.2225
+    VRAM:     3955 MB
+    Driver:   30.0.15.1215
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Mono path[0] = 'D:/Program Files/Unity/2020.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001260 seconds.
+Register platform support module: D:/Program Files/Unity/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000655 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 59.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.564 seconds
+- Completed reload, in  0.418 seconds
 Domain Reload Profiling:
-	ReloadAssembly (564ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (418ms)
+		BeginReloadAssembly (39ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (442ms)
-			LoadAssemblies (55ms)
+		EndReloadAssembly (335ms)
+			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (182ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (151ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (75ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003055 seconds.
+Registered in 0.001670 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026B78582010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B738F6AA0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B786DFA20 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B788DD020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7859D230 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7859D230 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7859D230 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7860D220 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7860D220 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7803AC30 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B78760030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7878E240 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B786DFA20 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7878E240 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7860D220 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7860D220 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7860D220 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77DC0010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77C3D430 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B780DC630 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B790D4830 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77BA0740 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B78FA7C20 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77C3D430 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77F3B010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B780EA640 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77F6B420 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7804C040 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B78E6F630 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B73E15A80 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77DF9420 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7405B020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B4B59B850 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7450CE60 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B786DFA20 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77DF9420 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 58.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.133 seconds
+- Completed reload, in  0.842 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1134ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (843ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (708ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3542 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.9 MB.
+System memory in use after: 152.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3980.
+Total: 2.282400 ms (FindLiveObjects: 0.175000 ms CreateObjectMapping: 0.083500 ms MarkObjects: 1.964300 ms  DeleteObjects: 0.058800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/VerticalSlice.unity
+  artifactKey: Guid(05b1454481ed45645a5b6946a1de1032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VerticalSlice.unity using Guid(05b1454481ed45645a5b6946a1de1032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5350e27ad2cba2934995b757f8dc52a') in 0.013118 seconds 
+  Import took 0.016780 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001543 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (736ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (613ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (222ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3412 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.8 MB.
+System memory in use after: 143.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3982.
+Total: 3.130300 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.158600 ms MarkObjects: 2.730600 ms  DeleteObjects: 0.021100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Domain Reload Profiling:
+	ReloadAssembly (863ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (725ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3412 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.9 MB.
+System memory in use after: 143.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3984.
+Total: 3.664700 ms (FindLiveObjects: 0.214900 ms CreateObjectMapping: 0.109000 ms MarkObjects: 3.318600 ms  DeleteObjects: 0.021400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 323.408861 seconds.
+  path: Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/IdleAnim/IdlepngSequence/TheWrightCatsTale_Idle_Anim_1_00000.png
+  artifactKey: Guid(0255bd3c81344c742ab4702874ae82e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/IdleAnim/IdlepngSequence/TheWrightCatsTale_Idle_Anim_1_00000.png using Guid(0255bd3c81344c742ab4702874ae82e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1400d5cc5f5a677d45f6ebbc8b29c53') in 0.109576 seconds 
+  Import took 0.115473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.778414 seconds.
+  path: Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00000.png
+  artifactKey: Guid(f33edcd6add04e04a8929b59b2112895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00000.png using Guid(f33edcd6add04e04a8929b59b2112895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0972d2814f120ce052addf15909f313d') in 0.010651 seconds 
+  Import took 0.015224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.749310 seconds.
+  path: Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00003.png
+  artifactKey: Guid(912ed076ed95b8f42a912586d93a1211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00003.png using Guid(912ed076ed95b8f42a912586d93a1211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f5d727ab6f8ab4d5715f6c408b9983') in 0.012408 seconds 
+  Import took 0.016365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.571167 seconds.
+  path: Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00003.png
+  artifactKey: Guid(912ed076ed95b8f42a912586d93a1211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00003.png using Guid(912ed076ed95b8f42a912586d93a1211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9459b7b1c511e574ed0c997b4ba5940c') in 0.011791 seconds 
+  Import took 0.016208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.465104 seconds.
+  path: Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00000.png
+  artifactKey: Guid(f33edcd6add04e04a8929b59b2112895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00000.png using Guid(f33edcd6add04e04a8929b59b2112895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9655354160543d911e52a8651890031') in 0.012864 seconds 
+  Import took 0.017731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00006.png
+  artifactKey: Guid(49a155bb945e3754f8b81664e43d758e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00006.png using Guid(49a155bb945e3754f8b81664e43d758e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20d9f1b075de958cfbc875dfdef19e7') in 0.010857 seconds 
+  Import took 0.015813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00001.png
+  artifactKey: Guid(14b155bcb3988194793837971b352b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00001.png using Guid(14b155bcb3988194793837971b352b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98f1ed51aa7126be1cc5e4169947ee0') in 0.011235 seconds 
+  Import took 0.015618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00010.png
+  artifactKey: Guid(28644c94a1648de4da5897edbf044710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00010.png using Guid(28644c94a1648de4da5897edbf044710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afc457ed7394b8a494477293153938e') in 0.011139 seconds 
+  Import took 0.015148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00005.png
+  artifactKey: Guid(2915444ec23f28240855a6a2d8732a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00005.png using Guid(2915444ec23f28240855a6a2d8732a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89efcbdc48a5772135a266bb102ec2ba') in 0.013738 seconds 
+  Import took 0.017742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00004.png
+  artifactKey: Guid(c6fa6aa0e00855348803d5ae6c174448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00004.png using Guid(c6fa6aa0e00855348803d5ae6c174448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5cf8f0bbedeed94e3de44a411dc19c') in 0.010687 seconds 
+  Import took 0.015098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00007.png
+  artifactKey: Guid(1df6fcb41a8580d4387398549ff164c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00007.png using Guid(1df6fcb41a8580d4387398549ff164c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6549ac7e210769607a128e487414d2') in 0.011507 seconds 
+  Import took 0.015445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00008.png
+  artifactKey: Guid(3b2ac2966c3ef644bba3709216ff5903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00008.png using Guid(3b2ac2966c3ef644bba3709216ff5903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dce13554b8f1008a82b5cfa41b6c14a') in 0.012126 seconds 
+  Import took 0.016039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00002.png
+  artifactKey: Guid(7f31c7e34045dab4b849e9fdc9ff9c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00002.png using Guid(7f31c7e34045dab4b849e9fdc9ff9c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edcfdf5da0fff81e99bed232572bd18') in 0.013702 seconds 
+  Import took 0.017525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00009.png
+  artifactKey: Guid(a88ffd6980e648649840cd02511790a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerSprites/PlayerSprites_WCT_221025/Hit/HitAnim_pngSequence/TheWrightCatsTale_HitAnim_1_[0001-0011] 2_00009.png using Guid(a88ffd6980e648649840cd02511790a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9eca32c56389b3738018841f7dddb5d') in 0.010979 seconds 
+  Import took 0.014867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 407.255987 seconds.
+  path: Assets/Animations/PlayerAnimationController.controller
+  artifactKey: Guid(00336d3e6b9132d4d9d152e1f03e3ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlayerAnimationController.controller using Guid(00336d3e6b9132d4d9d152e1f03e3ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b960ff0fa9f655df1af14451bbb42878') in 0.010222 seconds 
+  Import took 0.015530 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002005 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.732 seconds
+Domain Reload Profiling:
+	ReloadAssembly (732ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (605ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (215ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3412 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.9 MB.
+System memory in use after: 146.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3992.
+Total: 2.321800 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.079400 ms MarkObjects: 2.021900 ms  DeleteObjects: 0.019100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001637 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Domain Reload Profiling:
+	ReloadAssembly (730ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (939ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (613ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
+			SetupTypeCache (217ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (377ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3542 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.0 MB.
-System memory in use after: 153.2 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3980.
-Total: 3.545400 ms (FindLiveObjects: 0.242100 ms CreateObjectMapping: 0.166000 ms MarkObjects: 3.059200 ms  DeleteObjects: 0.077000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502e6a07f17d53978481d409dc7eb77c') in 0.015077 seconds 
-  Import took 0.019773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.836657 seconds.
-  path: Assets/Prefabs/ProjectileExplosion.prefab
-  artifactKey: Guid(3e9dbcd94d45c554f9eea4962ce65eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ProjectileExplosion.prefab using Guid(3e9dbcd94d45c554f9eea4962ce65eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f60b5f49ea599300538658e7f1ab6d') in 0.178907 seconds 
-  Import took 0.184120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.533660 seconds.
-  path: Assets/Prefabs/PlayerNail.prefab
-  artifactKey: Guid(d935684d9f16fc94883b6ba90961ff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PlayerNail.prefab using Guid(d935684d9f16fc94883b6ba90961ff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d4e90f551709b874f0297d1c725e78') in 0.028647 seconds 
-  Import took 0.034334 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003197 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B780B6010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FA17460 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B73DFD5F0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7BE40080 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7ECE6400 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77F97020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77F97020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7445D030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7D106260 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7D106260 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B780B6010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B918030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77B52470 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B785B1230 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B78F33030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B78F33030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B780E4220 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B78760030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7925B040 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77EE7700 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B783BBB90 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77E7D010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B742DD500 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B780E4220 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7CAF4C20 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B740A4010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C9A8030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7961B090 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B788EC040 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C9A8030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7D106260 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7BE40080 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7E73E2A0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B783B3020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B73DFD5F0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7D106260 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.041 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1041ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (864ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (285ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (221ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (194ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3412 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.1 MB.
-System memory in use after: 149.3 MB.
+System memory in use before: 145.9 MB.
+System memory in use after: 146.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4027.
-Total: 3.060700 ms (FindLiveObjects: 0.239500 ms CreateObjectMapping: 0.158400 ms MarkObjects: 2.646700 ms  DeleteObjects: 0.015500 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3994.
+Total: 2.750800 ms (FindLiveObjects: 0.171100 ms CreateObjectMapping: 0.087900 ms MarkObjects: 2.470900 ms  DeleteObjects: 0.019900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -350,127 +477,54 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003301 seconds.
+Registered in 0.001716 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026B7CD74ED0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7DB917A0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA104F310 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B1E2C70 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7895F020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B740A4010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C70F010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B74113090 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B740A4010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B740A4010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B787CE990 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B918030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7BD83080 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA11D6020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B783B3020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7ED138D0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B783B3020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B780B6010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77BFF010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B78811010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B5EDE00 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7886D030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA104F310 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B78799440 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B788FDD80 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C70F010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B78811010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7891F030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B092DB0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B741E5C10 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B740A4010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA11E4030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B73E59F60 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B783B3020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7CDA30E0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B740A4010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.986 seconds
+- Completed reload, in  0.731 seconds
 Domain Reload Profiling:
-	ReloadAssembly (986ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (731ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (819ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (615ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
+			SetupTypeCache (208ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (273ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (225ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3412 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.1 MB.
-System memory in use after: 149.4 MB.
+System memory in use before: 145.9 MB.
+System memory in use after: 146.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4029.
-Total: 2.972600 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.172800 ms MarkObjects: 2.533100 ms  DeleteObjects: 0.017700 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3996.
+Total: 2.715300 ms (FindLiveObjects: 0.179900 ms CreateObjectMapping: 0.088300 ms MarkObjects: 2.422700 ms  DeleteObjects: 0.023300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -479,143 +533,70 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.975674 seconds.
-  path: Assets/Scripts/PlayerAttack.cs
-  artifactKey: Guid(8018745eb014493419c02db5b4cfcd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerAttack.cs using Guid(8018745eb014493419c02db5b4cfcd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f47712fbbed18e67e1668e405b98e1') in 0.024036 seconds 
-  Import took 0.028561 seconds .
+  Time since last request: 381.538105 seconds.
+  path: Assets/Sprites/EnemySprites/Goblin/goblin_hit_anim_strip_3.png
+  artifactKey: Guid(4862f4b10e9e09643bc2854df3c8d6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemySprites/Goblin/goblin_hit_anim_strip_3.png using Guid(4862f4b10e9e09643bc2854df3c8d6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01fd1f0149a6f3ecd39eeeb1065113f') in 0.063647 seconds 
+  Import took 0.068133 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 125.380736 seconds.
-  path: Assets/Scripts/NailProjectile.cs
-  artifactKey: Guid(0e9ddde317cf6a3419111ea19a34f9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NailProjectile.cs using Guid(0e9ddde317cf6a3419111ea19a34f9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8090b162077189a84da8138bb269fc6') in 0.007399 seconds 
-  Import took 0.015694 seconds .
+  Time since last request: 2.414614 seconds.
+  path: Assets/Sprites/EnemySprites/Goblin/goblin_idle_anim_strip_4.png
+  artifactKey: Guid(28b7b4051d3c50b4f9f860d00720a6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemySprites/Goblin/goblin_idle_anim_strip_4.png using Guid(28b7b4051d3c50b4f9f860d00720a6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1952d610cb1bd4834767b824a119403b') in 0.081914 seconds 
+  Import took 0.085953 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005266 seconds.
+Registered in 0.001704 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026B78062010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA2868AB0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B780FA650 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B1E1E90 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7895F020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B8E6020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B8E6020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B74113090 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B8E6020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B8E6020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B787CE990 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B918030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C0DEBF0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B8E6020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B742D0260 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7823D040 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B742D0260 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9F95D020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B742D0260 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA2E7A030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7D1AB240 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7886D030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7D1A8430 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C940020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B788FDD80 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C70F010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA2E7A030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7F0E5020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA2C109E0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B929FB0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C70F010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FA0CB80 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA28CF320 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C461C40 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B780FA650 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7D37FD40 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.104 seconds
+- Completed reload, in  0.713 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1104ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (714ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (912ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (340ms)
+			SetupTypeCache (202ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (290ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (221ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3412 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.2 MB.
-System memory in use after: 149.4 MB.
+System memory in use before: 145.9 MB.
+System memory in use after: 146.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4031.
-Total: 3.514600 ms (FindLiveObjects: 0.260600 ms CreateObjectMapping: 0.166500 ms MarkObjects: 3.068300 ms  DeleteObjects: 0.018400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4003.
+Total: 2.873700 ms (FindLiveObjects: 0.253600 ms CreateObjectMapping: 0.150200 ms MarkObjects: 2.447300 ms  DeleteObjects: 0.021700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -624,272 +605,54 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 17.852275 seconds.
-  path: Assets/Scripts/NailProjectile.cs
-  artifactKey: Guid(0e9ddde317cf6a3419111ea19a34f9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NailProjectile.cs using Guid(0e9ddde317cf6a3419111ea19a34f9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cee0838b2e09f418e01db7615ea5995') in 0.005164 seconds 
-  Import took 0.010400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.140511 seconds.
-  path: Assets/Prefabs/PlayerNail.prefab
-  artifactKey: Guid(d935684d9f16fc94883b6ba90961ff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PlayerNail.prefab using Guid(d935684d9f16fc94883b6ba90961ff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29dade47871394f9318190bcead717cf') in 0.171547 seconds 
-  Import took 0.177010 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002895 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B7858A020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7D5CE3F0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77B71C00 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA24DF010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA277BB70 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C109FB0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C588030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7823D040 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B740A4010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA17D2030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B799CC010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7CB24C60 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA49DC970 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7E57D020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7823D040 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C940020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B742B9F50 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B787C2A70 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7829D080 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7E488EC0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B9627B0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7886D030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C94A040 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7829D080 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B784AF020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B1E2C70 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B79602020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C233020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B788E77C0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77BA0740 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B740A4010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA257A5F0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA4005CC0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA0647CF0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B742DD500 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA17D2030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.041 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1041ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (863ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (296ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (293ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (203ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3412 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.3 MB.
-System memory in use after: 149.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4069.
-Total: 3.425500 ms (FindLiveObjects: 0.506500 ms CreateObjectMapping: 0.184200 ms MarkObjects: 2.714300 ms  DeleteObjects: 0.018500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002993 seconds.
+Registered in 0.001833 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000026BA12BC010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7863A460 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B77B71C00 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B78916200 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA3A30CE0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7E260A40 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B9FE52020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B74283B10 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA2A62F50 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7E260A40 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B799CC010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA09FC010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7E5F8B00 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7E57D020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B74283B10 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B79B3C020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B74283B10 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B79BF3060 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7829D080 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7E488EC0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7B960680 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7886D030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7D80E010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7829D080 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7DB90010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B73E94010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7E488EC0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7EB20BE0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B788DF8E0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA24EFD10 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA2A62F50 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7ECEE410 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B73E5A140 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7ECC9040 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B742DD500 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7E260A40 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.014 seconds
+- Completed reload, in  0.714 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1014ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (714ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (859ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (599ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
+			SetupTypeCache (206ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (282ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (219ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3412 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.3 MB.
-System memory in use after: 149.5 MB.
+System memory in use before: 146.0 MB.
+System memory in use after: 146.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4071.
-Total: 3.500100 ms (FindLiveObjects: 0.241300 ms CreateObjectMapping: 0.160900 ms MarkObjects: 3.077200 ms  DeleteObjects: 0.020000 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4005.
+Total: 2.873200 ms (FindLiveObjects: 0.223300 ms CreateObjectMapping: 0.108900 ms MarkObjects: 2.521000 ms  DeleteObjects: 0.018900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -898,136 +661,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005474 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000026B7CD74ED0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7DBB8490 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B740F1010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7C419A50 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B740D3820 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA2852010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7D9E3030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B74283B10 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA08D6010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B79C89030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B799CC010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA09FC010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA2A457A0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7E57D020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B74283B10 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA1CAF020 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B74283B10 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B79BF3060 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7829D080 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7DB50350 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA14EC190 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7886D030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B740F1010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7829D080 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7DB34630 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B73E94010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7E488EC0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7EB20BE0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B788E80D0 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA24EFD10 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026BA2A62F50 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7DEEBC90 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B79CEC660 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B7ECC9040 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B740F1010 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026B79C89030 doesn't match image C:\Users\juicy\Desktop\The Git of The Hub\GameProject\MechanicTester_v0.03.5\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.064 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1064ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (899ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (284ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (194ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3412 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.3 MB.
-System memory in use after: 149.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4073.
-Total: 3.243500 ms (FindLiveObjects: 0.252700 ms CreateObjectMapping: 0.170700 ms MarkObjects: 2.800700 ms  DeleteObjects: 0.018900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
