@@ -53,14 +53,11 @@ public class PlayerSimpleController : MonoBehaviour
         if (moveX >= 0.1)
         {
             transform.localScale = Vector3.one;
-            Debug.Log("TriggerParticles2");
         }
         else if (moveX <= -0.1)
         {
             transform.localScale = new Vector3(-1, 1, 1);
-            Debug.Log("TriggerParticles2");
         }
-        
 
         // Coyote Time Logic
         if (IsGrounded())
@@ -107,7 +104,7 @@ public class PlayerSimpleController : MonoBehaviour
         //       MOVEMENT CALCULATIONS
         // Horizontal Movement
         rBody.velocity = new Vector2(moveX * moveSpeed, rBody.velocity.y);
-    }   
+    }
 
     private void Jump()
     {

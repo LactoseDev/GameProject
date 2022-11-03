@@ -21,8 +21,6 @@ public class CharacterMovement : MonoBehaviour
 
     [SerializeField] private TrailRenderer trailRenderer;
 
-    [SerializeField] private ParticleSystem dust;
-
     // Start is called before the first frame update
     protected virtual void Start()
     {
@@ -34,15 +32,6 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     protected virtual void Update()
     {
-        // Grounded Check
-        //IsGrounded();
-
-        if (moveX >= 0.1 || moveX <= -0.1)
-        {
-            CreateDust();
-            Debug.Log("TriggerParticles2");
-        }
-
         if (isDashing)
             return;
 
@@ -51,8 +40,7 @@ public class CharacterMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
             StartCoroutine(Dash());
 
-        anim.SetBool("isRunning", moveX != 0);       
-
+        anim.SetBool("isRunning", moveX != 0);
     }
 
     // Update is called once for 50 frames
@@ -75,19 +63,10 @@ public class CharacterMovement : MonoBehaviour
         if (moveX >= 0.1)
         {
             transform.localScale = Vector3.one;
-            //Debug.Log("TriggerParticles1");
-            //CreateDust();
         }
         else if (moveX <= -0.1)
         {
             transform.localScale = new Vector3(-1, 1, 1);
-            
-            /*if (isRunning())
-            {
-                CreateDust();
-                Debug.Log("TriggerParticles2");
-            }
-            */
         }
     }
 
@@ -107,12 +86,6 @@ public class CharacterMovement : MonoBehaviour
         isDashing = false;
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
-    }
-
-    //Creates dust function
-    void CreateDust()
-    {
-        dust.Play();
     }
 
 }
