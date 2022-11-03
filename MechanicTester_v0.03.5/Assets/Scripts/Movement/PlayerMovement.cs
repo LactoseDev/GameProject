@@ -7,7 +7,6 @@ public class PlayerMovement : CharacterMovement
     protected override void Update()
     {
         SetMoveX(Input.GetAxisRaw("Horizontal"));
-
         base.Update();
     }
 }
