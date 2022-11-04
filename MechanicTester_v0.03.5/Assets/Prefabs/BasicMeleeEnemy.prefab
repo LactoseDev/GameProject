@@ -170,8 +170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   flipped: 0
-  moveSpeed: 2
-  stopDistance: 0.4
+  moveSpeed: 1.25
+  stopDistance: 0.2
 --- !u!114 &1055911243879041803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -602,7 +602,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1411410295
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -8714638592523719452, guid: 28b7b4051d3c50b4f9f860d00720a6bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
