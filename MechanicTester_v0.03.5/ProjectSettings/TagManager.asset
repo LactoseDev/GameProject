@@ -11,6 +11,7 @@ TagManager:
   - Nail
   - NailPlatform
   - SwingDistance
+  - Shadows
   layers:
   - Default
   - TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   - Props
   - Projectile
   - NailSwing
-  - 
+  - Shadows
   - 
   - 
   - 
@@ -74,4 +75,7 @@ TagManager:
     locked: 0
   - name: FX
     uniqueID: 4152826863
+    locked: 0
+  - name: Shadows
+    uniqueID: 2307354791
     locked: 0
