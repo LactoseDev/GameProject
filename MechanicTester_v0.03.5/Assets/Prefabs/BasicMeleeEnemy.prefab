@@ -205,7 +205,7 @@ MonoBehaviour:
   - {fileID: 1055911245076237547}
   fullHeart: {fileID: 21300000, guid: 826cc5ea8d0884e4c96dbe4e1d7a6dfb, type: 3}
   emptyHeart: {fileID: 21300000, guid: d4a8296e688873044af876eef0ef0a7d, type: 3}
-  staggerTime: 0.5
+  staggerTime: 1
 --- !u!1 &1055911245013082298
 GameObject:
   m_ObjectHideFlags: 0

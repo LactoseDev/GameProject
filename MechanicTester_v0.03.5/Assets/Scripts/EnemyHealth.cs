@@ -31,6 +31,8 @@ public class EnemyHealth : Health
             // Increase Stagger Time for Death Animation
             staggerTime = 2f;
 
+            StartCoroutine(Stagger());
+
             // Destroy Enemy
             Destroy(gameObject, 0.6f);
         }

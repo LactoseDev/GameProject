@@ -23,6 +23,7 @@ public class JumpAttack : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             // Deal damage to enemy
+            collision.GetComponent<EnemyHealth>().HandleDamage(damageValue);
 
             // Bounce
         }
