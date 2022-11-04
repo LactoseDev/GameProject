@@ -11,6 +11,8 @@ TagManager:
   - Nail
   - NailPlatform
   - SwingDistance
+  - Shadows
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

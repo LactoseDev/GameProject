@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerHealth : Health
-{
+{ 
     public GameObject checkpoint;
     private Animator anim;
+    private Transform spawnPoint;
 
     protected virtual void Start()
     {
@@ -21,7 +22,7 @@ public class PlayerHealth : Health
         // Death Logic
         if (currentHealth <= 0)
         {
-            this.gameObject.transform.position = checkpoint.transform.position;
+            this.gameObject.transform.position = spawnPoint.transform.position;
             currentHealth = maxHealth;
 
             // Death Animation
@@ -30,6 +31,14 @@ public class PlayerHealth : Health
 
             // Sounds
 
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Checkpoint"))
+        {
+            spawnPoint = other.GetComponentInChildren<Transform>();
         }
     }
 

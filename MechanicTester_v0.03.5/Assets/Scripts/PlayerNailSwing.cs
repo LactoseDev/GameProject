@@ -91,6 +91,7 @@ public class PlayerNailSwing : MonoBehaviour
         {
             inSwingingRange = false;
             interactable = false;
+            StopCoroutine(Swing());
         }
     }
 
