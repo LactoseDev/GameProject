@@ -29,6 +29,9 @@ public class PlayerAttack : MonoBehaviour
             {
                 Debug.Log("attack01");
 
+                //Attack Sound
+                FindObjectOfType<AudioManager>().Play("PlayerAttack");
+
                 // Attack Here
                 Attack();
 

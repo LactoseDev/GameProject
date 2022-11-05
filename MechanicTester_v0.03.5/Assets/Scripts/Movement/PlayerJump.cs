@@ -19,6 +19,9 @@ public class PlayerJump : CharacterJump
         if (Input.GetButtonDown("Jump") && currentJumpCount > 0)
         {
             DoJump();
+
+            // Play Jump Sound
+            FindObjectOfType<AudioManager>().Play("Jump");
         }
 
         if (Input.GetButtonUp("Jump") && rBody.velocity.y > 0)

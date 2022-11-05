@@ -72,7 +72,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brokenPlatformSprite: {fileID: 0}
-  platformEndurance: 3
+  platformEndurance: 2
   platformRepairTime: 2
 --- !u!1 &1016780964832351843
 GameObject:

@@ -46,6 +46,7 @@ public class NailProjectile : MonoBehaviour
             if (collision.gameObject.CompareTag("Enemy"))
             {
                 collision.gameObject.GetComponent<EnemyHealth>().HandleDamage(damageValue);
+                FindObjectOfType<AudioManager>().Play("NailHittingEnemy");
             }
         }
     }
@@ -57,6 +58,8 @@ public class NailProjectile : MonoBehaviour
             //GameObject effect = Instantiate(wallNailEffect, transform.position, Quaternion.identity);
             //Destroy(effect, 1f);
             isPinned = true;
+            // Play Sound of Wall Hit
+            FindObjectOfType<AudioManager>().Play("NailHittingWood");
             spriteRenderer.sprite = pinnedSprite;
             // stores the old gravity on the nail (in case it needs to be changed)
             float originalGravity = rBody.gravityScale;

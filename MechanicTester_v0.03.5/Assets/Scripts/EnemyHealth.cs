@@ -28,6 +28,9 @@ public class EnemyHealth : Health
             // Death Animation
             anim.SetBool("isDead", true);
 
+            // Play Death Sound
+            FindObjectOfType<AudioManager>().Play("EnemyDeath");
+
             // Increase Stagger Time for Death Animation
             staggerTime = 2f;
 
